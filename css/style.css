@@ -1,0 +1,45 @@
+.navbar-brand {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+/* Home Banner */
+#heroHome {
+  background-image: url("/imgs/webDevDesk.jpeg");
+  opacity: 0.9;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+}
+
+.homeBannerText {
+  color: #fff;
+  text-align: right;
+  margin: 25rem 2rem 0 0;
+}
+
+.homeBannerHeader {
+  font-size: 50px;
+}
+
+.homeBannerSubtitle {
+  font-size: 30px;
+}
+
+/* Typewriter Cursor */
+.txt-type > .txt {
+  border-right: 0.1rem solid #444;
+}
