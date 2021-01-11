@@ -1,6 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Bootstrap */
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.navbar-nav {
+  margin-right: 2rem;
+}
+
 .navbar-brand {
+  font-weight: 700;
   text-decoration: none;
   color: #fff;
+  margin-left: 20px;
 }
 
 .navbar-brand:hover {
@@ -8,8 +28,10 @@
 }
 
 .nav-link {
+  font-weight: 700;
   text-decoration: none;
   color: #fff;
+  margin: 0 8px;
 }
 
 .nav-link:hover {
@@ -22,13 +44,13 @@
   opacity: 0.9;
   background-position: center;
   background-size: cover;
-  height: 70vh;
+  height: 80vh;
 }
 
 .homeBannerText {
   color: #fff;
   text-align: right;
-  margin: 25rem 2rem 0 0;
+  margin: 30rem 3rem 0 0;
 }
 
 .homeBannerHeader {
@@ -42,4 +64,43 @@
 /* Typewriter Cursor */
 .txt-type > .txt {
   border-right: 0.1rem solid #444;
+}
+
+/* About Me Section */
+.aboutHome {
+  padding: 24px;
+}
+
+.aboutHomeTitle {
+  padding: 8px 0;
+}
+
+.aboutHomeText {
+  padding: 10px 0;
+}
+
+.pageLink {
+  background-color: #ac2929;
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Blog Home */
+
+.blogHome {
+  text-align: center;
+  padding: 6px;
+  background-color: #f1f1f1;
+}
+
+.blogHomeHeader {
+  text-align: center;
+  padding: 12px;
+}
+
+.cardCol {
+  display: flex;
+  justify-content: space-evenly;
 }
