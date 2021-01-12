@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@700&display=swap');
+
+/* HTML Elements */
 
 body {
   font-family: "Raleway", sans-serif;
@@ -10,6 +12,16 @@ i {
   padding: 6px;
 }
 
+/* Reusable Style */
+
+.sectionHeader {
+  text-align: center;
+}
+
+.sectionTitle {
+  margin: 10px 0;
+}
+
 /* Bootstrap */
 
 .card-img-top {
@@ -18,15 +30,20 @@ i {
   object-fit: cover;
 }
 
+.navbar {
+  background-color: rgba(180, 180, 180, 0.3);
+}
+
 .navbar-nav {
   margin-right: 2rem;
 }
 
 .navbar-brand {
-  font-weight: 700;
+  font-weight: 900;
   text-decoration: none;
   color: #fff;
   margin-left: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navbar-brand:hover {
@@ -43,6 +60,13 @@ i {
 .nav-link:hover {
   color: #fff;
 }
+
+/* Navbar */
+.spanColorText {
+  color: #ac2929;
+  font-weight: 900;
+}
+
 
 /* Home Banner */
 #heroHome {
@@ -87,23 +111,25 @@ i {
 }
 
 .pageLink {
-  background-color: #ac2929;
+  border: 2px solid #ac2929;
+  color: #ac2929;
   padding: 8px;
   border-radius: 6px;
-  color: white;
   text-decoration: none;
+}
+
+.pageLink:hover {
+  background-color: #ac2929;
+  color: white;
 }
 
 /* Blog Home */
 
 .blogHome {
-  text-align: center;
-  padding: 6px;
   background-color: #f1f1f1;
 }
 
 .blogHomeHeader {
-  text-align: center;
   padding: 12px;
 }
 
@@ -113,11 +139,22 @@ i {
   margin-bottom: 16px;
 }
 
-/* Footer */
+/* Portfolio Section */
+
+.carousel-img {
+  overflow: hidden;
+  height: 330px;
+  width: auto;
+}
+
+.carousel {
+  max-height: 400px;
+  overflow: hidden;
+}
 
 /* Footer  */
 .footer {
-  background-color: #2C2C2C;
+  background-color: #2c2c2c;
   bottom: 0;
   width: 100%;
   display: flex;
