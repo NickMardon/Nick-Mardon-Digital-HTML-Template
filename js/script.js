@@ -53,7 +53,6 @@ class TypeWriter {
     }
   }
   
-  
   // Init On DOM Load
   document.addEventListener('DOMContentLoaded', init);
   
