@@ -22,7 +22,27 @@ i {
   margin: 10px 0;
 }
 
+.pageLink {
+  border: 2px solid #ac2929;
+  color: #ac2929;
+  padding: 8px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.pageLink:hover {
+  background-color: #ac2929;
+  color: white;
+  text-decoration: none;
+}
+
 /* Bootstrap */
+
+.card {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
 
 .card-img-top {
   height: 14rem;
@@ -30,9 +50,13 @@ i {
   object-fit: cover;
 }
 
-.navbar {
-  background-color: rgba(180, 180, 180, 0.3);
+.navbar-toggler-icon {
+  color: white;
 }
+
+/* .navbar {
+  background-color: rgba(180, 180, 180, 0.3);
+} */
 
 .navbar-nav {
   margin-right: 2rem;
@@ -53,7 +77,7 @@ i {
 .nav-link {
   font-weight: 700;
   text-decoration: none;
-  color: #fff;
+  color: #fff !important;
   margin: 0 8px;
 }
 
@@ -71,16 +95,16 @@ i {
 /* Home Banner */
 #heroHome {
   background-image: url("/imgs/webDevDesk.jpeg");
-  opacity: 0.9;
+  opacity: 0.85;
   background-position: center;
   background-size: cover;
-  height: 80vh;
+  height: 100vh;
 }
 
 .homeBannerText {
   font-weight: 800;
   color: #fff;
-  margin: 20%;
+  margin: 45% 20%;
   position: absolute;
 }
 
@@ -110,19 +134,6 @@ i {
   padding: 10px 0;
 }
 
-.pageLink {
-  border: 2px solid #ac2929;
-  color: #ac2929;
-  padding: 8px;
-  border-radius: 6px;
-  text-decoration: none;
-}
-
-.pageLink:hover {
-  background-color: #ac2929;
-  color: white;
-}
-
 /* Blog Home */
 
 .blogHome {
@@ -150,6 +161,10 @@ i {
   height: 20rem;
   width: 100%;
   object-fit: cover;
+}
+
+.projectRow {
+  margin: 16px 0;
 }
 
 
