@@ -141,16 +141,17 @@ i {
 
 /* Portfolio Section */
 
-.carousel-img {
-  overflow: hidden;
-  height: 330px;
-  width: auto;
+.projectLink {
+  text-decoration: none;
+  color: #ac2929;
 }
 
-.carousel {
-  max-height: 400px;
-  overflow: hidden;
+.carouselImg {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
 }
+
 
 /* Footer  */
 .footer {
