@@ -54,10 +54,6 @@ i {
   color: white;
 }
 
-/* .navbar {
-  background-color: rgba(180, 180, 180, 0.3);
-} */
-
 .navbar-nav {
   margin-right: 2rem;
 }
@@ -153,6 +149,11 @@ i {
 /* Portfolio Section */
 
 .projectLink {
+  text-decoration: none;
+  color: #ac2929;
+}
+
+.projectLink:hover {
   text-decoration: none;
   color: #ac2929;
 }
