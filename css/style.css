@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@700&display=swap');
-
+@import url(/css/page.css);
 /* HTML Elements */
 
 body {
@@ -130,12 +130,12 @@ i {
   padding: 24px;
 }
 
-.aboutHomeTitle {
-  padding: 8px 0;
+.aboutText {
+  padding: 16px;
 }
 
-.aboutHomeText {
-  padding: 10px 0;
+.aboutHomeTitle {
+  padding: 8px 0;
 }
 
 /* Blog Home */

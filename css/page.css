@@ -1,0 +1,15 @@
+#pageBanner {
+  background-image: url(/imgs/pagebackground.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+}
+
+.pageTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: #fff;
+}
