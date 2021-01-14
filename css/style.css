@@ -13,6 +13,9 @@ i {
 }
 
 /* Reusable Style */
+.sectionPadding {
+  padding: 24px;
+}
 
 .sectionHeader {
   text-align: center;
@@ -126,9 +129,6 @@ i {
 }
 
 /* About Me Section */
-.aboutHome {
-  padding: 24px;
-}
 
 .aboutText {
   padding: 16px;
@@ -140,7 +140,7 @@ i {
 
 /* Blog Home */
 
-.blogHome {
+.bgGrey {
   background-color: #f1f1f1;
 }
 
