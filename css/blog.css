@@ -1,0 +1,24 @@
+.blogTitle {
+  padding: 8px;
+}
+
+.blogPost {
+  margin: 10px 0;
+}
+
+.blogAuthor {
+  background-color: #d9afaf;
+  width: auto;
+  border-radius: 8px;
+}
+
+.blogLink {
+  text-decoration: none;
+  color: #ac2929;
+  padding: 8px;
+}
+
+.blogLink:hover {
+  text-decoration: none;
+  color: #ac2929;
+}
